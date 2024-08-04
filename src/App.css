@@ -1,3 +1,4 @@
+/* Navbar css */
 *{
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ display: flex;
   font-size: 1.5rem;
   font-weight: bold;
   color:green;
-  margin-right: 680px;
+  margin-right: 780px;
 }
 .nav-unorderdlist {
   list-style: none;
@@ -35,6 +36,7 @@ display: flex;
   font-size: 1rem;
   font-weight: bold;
 }
+/* Searchbar css */
 .search-bar {
 background-image: url(./assets/searchbar5.jpg) ;
 background-size: cover;
@@ -65,3 +67,176 @@ align-items: center;
 .searchbutton:hover {
   background-color: crimson;
 }
+/* Explore food  css */
+.explorefood {
+  text-align: center;
+  margin: 0;
+  background-color: yellow;
+}
+
+.explorefood h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color:green;
+}
+
+.food-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.food-card {
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.food-card img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  background-color: green;
+  border-width: 20px;
+  box-sizing: border-box;
+}
+
+.food-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+/* Food menu css */
+ .food-menu {
+  text-align: center;
+  margin:  0;
+  padding: 1rem;
+  background-color: green;
+}
+
+.food-menu h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color:white;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.menu-item {
+  background-color:yellow ;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.menu-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+} 
+h4 {
+color: white;
+padding-top: 30px;
+padding-bottom: 20px;
+cursor: pointer;
+}
+h4:hover {
+  color: #ff6b6b;
+}
+
+.menu-details p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: green;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: crimson;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+/* social sites  css */
+ .container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center items horizontally */
+  padding: 30px;
+  background-color: yellow;
+}
+
+.icons {
+  display: flex; 
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+.icon:hover {
+  transform: translateY(-5px);
+}
+.icon {
+  margin: 0 10px; 
+  width: 48px;
+  height: 48px;
+}
+
+h5 {
+  margin-top: 0;
+  color: green;
+  font-size: 14px;
+}
+
